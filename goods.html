@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+    <link rel="stylesheet" href="css/goods.css">
+    <title>Shop</title>
+</head>
+<body>
+  <header class="navbar navbar-expand-sm bg-info navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/outline_groups_black_24dp.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="goods.html">Shop</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+  </header>
+
+
+  <!-- toaster -->
+    <div class="fixed-top mt-5 ms-3 tos toast p-1">
+      <div class="toast-header">
+        Custom Goods
+      </div>
+      <button type="button" class="btn-close float-end" data-bs-dismiss="toast"></button>
+      <div class="toast-body">
+        <p>Input the name of the product and Your Phone-Number and we will send the details of the goods shortly</p>
+        <label for="">Name of Product:</label><br>
+        <input type="text" name="product-name" class="p-1">
+        <br><br>
+        <label for="">Phone Number:</label><br>
+        <input type="text" name="product-name" class="p-1">
+        <br><br>
+        <input type="submit" class="p-1 bg-info text-white border">
+      </div>
+    </div>
+1
+
+  <!-- hero -->
+  <section id="home" class="container-fluid top p-5 text-center">
+      <h1 style="font-size: 50px;" class="mt-5 text-info">SHOP</h1>
+      <div class="line bg-info rounded-pill"></div>
+      <a href="index.html"><button class="btn bg-info text-white mt-3">Back Home</button></a>
+  </section>
+  <hr style="border: 2px solid grey;">
+
+  <!-- categories -->
+  <section class="container-fluid">
+    <div class="row text-center">
+      <h2 class="text-center">Categories</h2>
+      <div class="col-md-12">
+          <a class="btn cb text-info border m-1" href="#smartwatch">Accessories</a>
+          <a class="btn cb text-info border m-1" href="#freeze">Refrigerators</a>
+          <a class="btn cb text-info border m-1" href="#wash">Washing Machines</a>
+          <a class="btn cb text-info border m-1" href="#blenders">Blenders</a>
+          <a class="btn cb text-info border m-1" href="#tablets">Tablets and PCs</a>
+          <a class="btn cb text-info border m-1" href="#phones">Phones</a>
+          <a class="btn cb text-info border m-1" href="#generators">Generators</a>
+          <!-- <a class="btn cb text-info border m-1" href="#accessories">Accessories</a> -->
+          <a class="btn cb text-info border m-1" href="#fans">Wall and Standing Fans</a>
+      </div>
+    </div>
+  </section>
+  <hr style="border: 2px solid grey;">
+
+  <!-- smart watches -->
+  <section id="smartwatch" class="container">
+    <div><h3 class="text-info">Accessories</h3></div><hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <h6>Description:</h6><p id="gd1">Apple Earpod "white"</p>
+        <h6>Price:</h6><p id="pr1">5,000</p>
+        <img class="rounded" src="img/apple earpod-2.jpg" width="100%" alt="">
+        <a href=""><button id="bt1" class="btn bg-info text-white mt-2 ml-2" data-bs-toggle="modal" data-bs-target="#myModal">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <h6>Description:</h6><p id="gd2">Apple Smart-Watch 7 "Black"</p>
+        <h6>Price:</h6><p id="pr2">9,999</p>
+        <img class="rounded" src="img/apple smartwatch-7.jpg" width="100%" alt="">
+        <a href=""><button id="bt2" class="btn bg-info text-white mt-2 ml-2" data-bs-toggle="modal" data-bs-target="#myModal">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <h6>Description:</h6><p id="gd3">Yaoota Smart-Watch "Black"</p>
+        <h6>Price:</h6><p id="pr3">9,999</p>
+        <img class="rounded" src="img/yaoota-smartwatch.jpg" width="100%" alt="">
+        <a href=""><button id="bt3" class="btn bg-info text-white mt-2 ml-2" data-bs-toggle="modal" data-bs-target="#myModal">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <h6>Description:</h6><p id="gd4">Apple Smart-Watch "Black</p>
+        <h6>Price:</h6><p id="pr4">15,000</p>
+        <img class="rounded" src="img/apple smartwatch.jpg" width="100%" alt="">
+        <a href=""><button id="bt4" class="btn bg-info text-white mt-2 ml-2" data-bs-toggle="modal" data-bs-target="#myModal">Get It Now</button></a>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <h6>Description:</h6><p id="gd5">White Apple Earpod</p>
+        <h6>Price:</h6><p id="pr5">5,500</p>
+        <img class="rounded" src="img/apple earpod.jpg" width="100%" alt="">
+        <a href=""><button id="bt5" class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <h6>Description:</h6><p id="gd6">Lorem Ipsum Dolor Sit Amet</p>
+        <h6>Price:</h6><p id="pr6">$9999</p>
+        <img class="rounded" src="img/tablet.jpg" width="100%" alt="">
+        <a href=""><button id="bt6" class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <h6>Description:</h6><p id="gd7">Lorem Ipsum Dolor Sit Amet</p>
+        <h6>Price:</h6><p id="pr7">$9999</p>
+        <img class="rounded" src="img/tablet.jpg" width="100%" alt="">
+        <a href=""><button id="bt7" class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="hidden" class="col-md-3 p-3 text-center m-auto">
+        <h6>Description:</h6><p id="gd8">Lorem Ipsum Dolor Sit Amet</p>
+        <h6>Price:</h6><p id="pr8">$9999</p>
+        <img class="rounded" src="img/tablet.jpg" width="100%" alt="">
+        <a href=""><button id="bt8" class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="smc" class="smc col-md-3 p-1 text-center m-auto" height="100%">
+        <a id="smb"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See More</button></a>
+      </div>
+    </div>
+
+    <div id="hidd" class="hid">
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <h6>Description:</h6><p>Lorem Ipsum Dolor Sit Amet</p>
+          <h6>Price:</h6><p>$9999</p>
+          <img class="rounded" src="img/tablet.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <h6>Description:</h6><p>Lorem Ipsum Dolor Sit Amet</p>
+          <h6>Price:</h6><p>$9999</p>
+          <img class="rounded" src="img/tablet.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <h6>Description:</h6><p>Lorem Ipsum Dolor Sit Amet</p>
+          <h6>Price:</h6><p>$9999</p>
+          <img class="rounded" src="img/tablet.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <h6>Description:</h6><p>Lorem Ipsum Dolor Sit Amet</p>
+          <h6>Price:</h6><p>$9999</p>
+          <img class="rounded" src="img/tablet.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <h6>Description:</h6><p>Lorem Ipsum Dolor Sit Amet</p>
+          <h6>Price:</h6><p>$9999</p>
+          <img class="rounded" src="img/tablet.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <h6>Description:</h6><p>Lorem Ipsum Dolor Sit Amet</p>
+          <h6>Price:</h6><p>$9999</p>
+          <img class="rounded" src="img/tablet.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <h6>Description:</h6><p>Lorem Ipsum Dolor Sit Amet</p>
+          <h6>Price:</h6><p>$9999</p>
+          <img class="rounded" src="img/tablet.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <h6>Description:</h6><p>Lorem Ipsum Dolor Sit Amet</p>
+          <h6>Price:</h6><p>$9999</p>
+          <img class="rounded" src="img/tablet.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="smc col-md-3 p-1 text-center m-auto">
+          <a id="slb"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See Less</button></a>
+        </div>
+      </div>
+      <br>
+      <div class="row text-center">
+        <p>Can't find what you're looking for click <a class="ts text-info" id="toastbtn">here</a></p>
+      </div>
+    </div>
+  
+    
+  </section>
+  <hr style="border: 2px solid grey;">
+
+  <!-- Refrigerators -->
+  <section id="freeze" class="container">
+    <div><h3 class="text-info">Refrigerators</h3></div><hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/freeze.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/freeze.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/freeze.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/freeze.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/freeze.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/freeze.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/freeze.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="hidden" class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/freeze.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="smc-rf" class="smc col-md-3 p-1 text-center m-auto" height="100%">
+        <a id="smb-rf"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See More</button></a>
+      </div>
+    </div>
+
+    <div id="hidd-rf" class="hid">
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/freeze.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/freeze.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/freeze.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/freeze.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/freeze.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/freeze.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/freeze.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/freeze.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="smc col-md-3 p-1 text-center m-auto">
+          <a id="slb-rf"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See Less</button></a>
+        </div>
+      </div>
+      <br>
+      <div class="row text-center">
+        <p>Can't find what you're looking for click <a class="ts text-info" id="toastbtn">here</a></p>
+      </div>
+    </div>
+  
+    
+  </section>
+  <hr style="border: 2px solid grey;">
+
+  <!-- Washing Machines -->
+  <section id="wash" class="container">
+    <div><h3 class="text-info">Washing Machines</h3></div><hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/indust.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/indust.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/indust.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/indust.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/indust.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/indust.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/indust.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="hidden" class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/indust.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="smc-ws" class="smc col-md-3 p-1 text-center m-auto" height="100%">
+        <a id="smb-ws"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See More</button></a>
+      </div>
+    </div>
+
+    <div id="hidd-ws" class="hid">
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/indust.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/indust.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/indust.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/indust.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/indust.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/indust.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/indust.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/indust.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="smc col-md-3 p-1 text-center m-auto">
+          <a id="slb-ws"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See Less</button></a>
+        </div>
+      </div>
+      <br>
+      <div class="row text-center">
+        <p>Can't find what you're looking for click <a class="ts text-info" id="toastbtn">here</a></p>
+      </div>
+    </div>
+  
+    
+  </section>
+  <hr style="border: 2px solid grey;">
+
+  <!-- Blenders -->
+  <section id="blenders" class="container">
+    <div><h3 class="text-info">Household</h3></div><hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/blender.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/blender.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/blender.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/blender.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/blender-2.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/blender-2.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/blender-2.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="hidden" class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/blender-2.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="smc-bl" class="smc col-md-3 p-1 text-center m-auto" height="100%">
+        <a id="smb-bl"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See More</button></a>
+      </div>
+    </div>
+
+    <div id="hidd-bl" class="hid">
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/kettle.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/kettle.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/kettle.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/kettle.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/pressingiron.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/pressingiron.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/pressingiron.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/pressingiron.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="smc col-md-3 p-1 text-center m-auto">
+          <a id="slb-bl"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See Less</button></a>
+        </div>
+      </div>
+      <br>
+      <div class="row text-center">
+        <p>Can't find what you're looking for click <a class="ts text-info" id="toastbtn">here</a></p>
+      </div>
+    </div>
+  
+    
+  </section>
+  <hr style="border: 2px solid grey;">
+
+  <!-- Tablets and pcs -->
+  <section id="tablets" class="container">
+    <div><h3 class="text-info">Tablets and Pcs</h3></div><hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/pexels-cottonbro-4065617.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/pexels-cottonbro-4065617.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/pexels-cottonbro-4065617.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/pexels-cottonbro-4065617.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/pexels-cottonbro-4065617.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/pexels-cottonbro-4065617.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/pexels-cottonbro-4065617.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="hidden" class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/pexels-cottonbro-4065617.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="smc-tb" class="smc col-md-3 p-1 text-center m-auto" height="100%">
+        <a id="smb-tb"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See More</button></a>
+      </div>
+    </div>
+
+    <div id="hidd-tb" class="hid">
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/pexels-cottonbro-4065617.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/pexels-cottonbro-4065617.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/pexels-cottonbro-4065617.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/pexels-cottonbro-4065617.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/pexels-cottonbro-4065617.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/pexels-cottonbro-4065617.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/pexels-cottonbro-4065617.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/pexels-cottonbro-4065617.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="smc col-md-3 p-1 text-center m-auto">
+          <a id="slb-tb"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See Less</button></a>
+        </div>
+      </div>
+      <br>
+      <div class="row text-center">
+        <p>Can't find what you're looking for click <a class="ts text-info" id="toastbtn">here</a></p>
+      </div>
+    </div>
+  
+    
+  </section>
+  <hr style="border: 2px solid grey;">
+
+  <!-- Phones -->
+  <section id="phones" class="container">
+    <div><h3 class="text-info">Mobile Phones</h3></div><hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6>infinix Smart 3</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/infinix smart 3.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6>Infinix Smart 4</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/infinix smart 4.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6>Infinix Smart 8 Plus</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/infinix smart 8 plus.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6>Infinix Hot 10i</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/Infinix-Hot-10i.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6>Infinix Hot 9</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/infinix_hot_9_cover_back_1591967824681.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6>Iphone 12</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/iphone 12.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6>Iphone 13</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/iphone13.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="hidden" class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6>Itel P17 "4gb"</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/itel-p17 2gb-32gb-4g.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="smc-ph" class="smc col-md-3 p-1 text-center m-auto" height="100%">
+        <a id="smb-ph"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See More</button></a>
+      </div>
+    </div>
+
+    <div id="hidd-ph" class="hid">
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6>Itel S16</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/itel-s16.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6>Itel Vision3</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/itel-vision3.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6>Itel A56</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/itelA56.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6>Samsung-Galaxy-A73-gadgetstripe</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/Samsung-Galaxy-A73-gadgetstripe.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/pexels-cottonbro-4065906.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/pexels-cottonbro-4065906.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/pexels-cottonbro-4065906.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/pexels-cottonbro-4065906.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="smc col-md-3 p-1 text-center m-auto">
+          <a id="slb-ph"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See Less</button></a>
+        </div>
+      </div>
+      <br>
+      <div class="row text-center">
+        <p>Can't find what you're looking for click <a class="ts text-info" id="toastbtn">here</a></p>
+      </div>
+    </div>
+  
+    
+  </section>
+  <hr style="border: 2px solid grey;">
+
+  <!-- Generators -->
+  <section id="generators" class="container">
+    <div><h3 class="text-info">Generators</h3></div><hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/gene1.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/gene1.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/gene1.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/gene1.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/gene1.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/gene1.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/gene1.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="hidden" class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/gene1.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="smc-gn" class="smc col-md-3 p-1 text-center m-auto" height="100%">
+        <a id="smb-gn"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See More</button></a>
+      </div>
+    </div>
+
+    <div id="hidd-gn" class="hid">
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/gene1.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/gene1.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/gene1.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/gene1.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/gene1.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/gene1.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/gene1.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/gene1.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="smc col-md-3 p-1 text-center m-auto">
+          <a id="slb-gn"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See Less</button></a>
+        </div>
+      </div>
+      <br>
+      <div class="row text-center">
+        <p>Can't find what you're looking for click <a class="ts text-info" id="toastbtn">here</a></p>
+      </div>
+    </div>
+  
+    
+  </section> 
+  <hr style="border: 2px solid grey;">
+
+  <!-- Mobile Accessories -->
+  <!-- <section id="accessories" class="container">
+    <div><h3 class="text-info">Accessories</h3></div><hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/apple-1868496_1920.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/apple-1868496_1920.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/apple-1868496_1920.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/apple-1868496_1920.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/apple-1868496_1920.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/apple-1868496_1920.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/apple-1868496_1920.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="hidden" class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/apple-1868496_1920.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="smc-acc" class="smc col-md-3 p-1 text-center m-auto" height="100%">
+        <a id="smb-acc"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See More</button></a>
+      </div>
+    </div>
+
+    <div id="hidd-acc" class="hid">
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/apple-1868496_1920.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/apple-1868496_1920.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/apple-1868496_1920.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/apple-1868496_1920.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/apple-1868496_1920.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/apple-1868496_1920.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/apple-1868496_1920.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/apple-1868496_1920.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="smc col-md-3 p-1 text-center m-auto">
+          <a id="slb-acc"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See Less</button></a>
+        </div>
+      </div>
+      <br>
+      <div class="row text-center">
+        <p>Can't find what you're looking for click <a class="ts text-info" id="toastbtn">here</a></p>
+      </div>
+    </div>
+  
+    
+  </section> 
+  <hr style="border: 2px solid grey;"> -->
+
+  <!-- Fans -->
+  <section id="accessories" class="container">
+    <div><h3 class="text-info">Wall and Standing Fans</h3></div><hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/bulb-card-close-up-1083626.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/bulb-card-close-up-1083626.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/bulb-card-close-up-1083626.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/bulb-card-close-up-1083626.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/bulb-card-close-up-1083626.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/bulb-card-close-up-1083626.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/bulb-card-close-up-1083626.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="hidden" class="col-md-3 p-3 text-center m-auto">
+        <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+        <p><h6>Price:</h6>$9999</p>
+        <img class="rounded" src="img/bulb-card-close-up-1083626.jpg" width="100%" alt="">
+        <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+      </div>
+      <div id="smc-fan" class="smc col-md-3 p-1 text-center m-auto" height="100%">
+        <a id="smb-fan"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See More</button></a>
+      </div>
+    </div>
+
+    <div id="hidd-fan" class="hid">
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/bulb-card-close-up-1083626.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/bulb-card-close-up-1083626.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/bulb-card-close-up-1083626.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/bulb-card-close-up-1083626.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/bulb-card-close-up-1083626.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/bulb-card-close-up-1083626.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/bulb-card-close-up-1083626.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="col-md-3 p-3 text-center m-auto">
+          <p><h6>Description:</h6> Lorem Ipsum Dolor Sit Amet</p>
+          <p><h6>Price:</h6>$9999</p>
+          <img class="rounded" src="img/bulb-card-close-up-1083626.jpg" width="100%" alt="">
+          <a href=""><button class="btn bg-info text-white mt-2 ml-2">Get It Now</button></a>
+        </div>
+        <div class="smc col-md-3 p-1 text-center m-auto">
+          <a id="slb-fan"><button class="btn bg-info text-white mt-1 mb-1 ml-2">See Less</button></a>
+        </div>
+      </div>
+      <br>
+      <div class="row text-center">
+        <p>Can't find what you're looking for click <a class="ts text-info" id="toastbtn">here</a></p>
+      </div>
+    </div>
+  
+    
+  </section> 
+  <hr style="border: 2px solid grey;">
+
+
+
+  <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+  Open modal
+</button>
+
+<!-- The Modal -->
+<div class="show modal" id="myModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body p-2">
+        <form action="">
+          <label>Goods Description:</label><br>
+            <input id="g-d" type="text" name="Gooods Description" readonly>
+            <br>
+            <br>
+            <label>Price:</label><br>
+            <input id="pr" type="text" name="Price" readonly>
+            <br>
+            <br>
+            <label>Email/Whatsapp/Mobile:</label><br>
+            <input type="text" name="contact" class="p-1">
+            <br>
+            <br>
+            <label>Address:</label><br>
+            <input type="text" name="address" class="p-1">
+            <div class="text-center">
+              <h3 class="text-info">--Payment--</h3>
+              <hr>
+              <h4>Account Details:</h4><br>
+              <p>0012345678 UBA Bank</p>
+              <p>Babatunde Usman</p>
+              <hr>
+              <br>
+              <label>Proof of Payment:</label><br>
+              <input type="file" name="Proof"><br>
+              <i>upload photo of receipt</i>
+            </div>
+            <input type="Submit" class="bg-info text-center text-white pt-1">
+        </form>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+    <!-- footer -->
+    <section class="container-fluid">
+      <div class="row bg-info text-white">
+          <div class="col-md-3 pt-1">
+              <h4>Quick Info</h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aperiam placeat dignissimos, suscipit asperiores illo magnam voluptatum ipsum incidunt rerum iure libero quia, tempore quisquam! Expedita rem eius maxime dolor?
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-3 pt-1">
+              <h4>Quick Links</h4>
+              <div class="row">
+                <ul class="col-md-6">
+                  <li><a href="#smartwatch" class="a text-white">Smart Watches</a></li>
+                  <li><a href="#freeze" class="a text-white">Refrigerators</a></li>
+                  <li><a href="#wash" class="a text-white">Washing Machines</a></li>
+                  <li><a href="#blenders" class="a text-white">Blenders</a></li>
+                  <li><a href="#tablets" class="a text-white">Tablets and PCs</a></li>
+                </ul>
+                <ul class="col-md-6">
+                  <li><a href="#phones" class="a text-white">Phones</a></li>
+                  <li><a href="#generators" class="a text-white">Generators</a></li>
+                  <li><a href="#accessories" class="a text-white">Accessories</a></li>
+                  <li><a href="#fans" class="a text-white">Electric Fans</a></li>
+                </ul>
+              </div>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-3 pt-1">
+              <h4>Social Media Handles</h4>
+          </div>
+          <div class="col-md-1"></div>
+      </div>
+      <div class="row"><p class=" text-center text-white bg-info">House of Code &copy; 2022</p></div>
+  </section>
+
+  <script>
+    document.querySelectorAll(".ts").onclick = function() {
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    var toastList = toastElList.map(function(toastEl) {
+      return new bootstrap.Toast(toastEl)
+    })
+    toastList.forEach(toast => toast.show())
+  }
+  </script>
+
+
+  <script src="./main.js"></script>
+</body>
+</html>

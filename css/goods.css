@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.top{
+    background: url(../img/apple-1868496_1920.jpg);
+    height: 560px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+i{
+    font-size: 13px;
+}
+
+.line{
+    width: 20%;
+    height: 5px;
+    margin-left: 40%;
+} 
+
+.cb{
+    border: 1px solid skyblue;
+}
+
+.smc{
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+.hid{
+    display: none;
+}
+
+.smpl{
+    display: none;
+    z-index: 99;
+}
+
+.tos{
+    width: 250px;
+}
